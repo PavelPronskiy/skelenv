@@ -59,7 +59,6 @@ shopt -s nocaseglob
 
 # MICRO FUNCTIONS
 rcopy() { rsync -avP --delete-after --compress-level=6 --timeout=200 "$1" "$2" ;}
-rcat() { ssh root@$1 "cat $2" ;}
 
 
 
